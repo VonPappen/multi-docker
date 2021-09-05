@@ -3,6 +3,7 @@ services:
   client:
     image: "vonpappen/multi-client"
     mem_limit: 128m
+    # how much ram is allocated to the container
     hostname: client
   server:
     image: "vonpappen/multi-server"
